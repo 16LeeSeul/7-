@@ -76,6 +76,7 @@
         <input type="submit">
     </form>
 -> 사용자들로부터 입력받은 태그들을 전송받을 대상에게 action으로 전송합니다.  
+  
 ![20](https://user-images.githubusercontent.com/37537330/53731086-0a0ee480-3ebd-11e9-93b1-73cd63117ba3.png)
 
 ## img 태그 - 이미지를 첨부하는 태그
