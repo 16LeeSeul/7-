@@ -1,4 +1,4 @@
-## 웹 개론
+# 웹 개론
 ***
 ![1](https://user-images.githubusercontent.com/37537330/53728445-252a2600-3eb6-11e9-91ec-3b101c0e68ef.png)
 ![2](https://user-images.githubusercontent.com/37537330/53728455-28bdad00-3eb6-11e9-9694-4593143ca34c.png)
@@ -17,16 +17,17 @@
 ![15](https://user-images.githubusercontent.com/37537330/53728496-3c691380-3eb6-11e9-97cb-368f3a77ee0d.png)
   
   
-## html 실습
+# html 실습
 ***
 ![19](https://user-images.githubusercontent.com/37537330/53730667-f57e1c80-3ebb-11e9-806a-94db96bf5e5b.png)
-  
-### 프로젝트를 만들 폴더 생성하기
-  mkdir basic
-
-### index.html 파일 만들기
 ***
-### html로 작성되 문서입니다! 라고 알려주는 태그
+  
+## 프로젝트를 만들 폴더 생성하기
+    mkdir basic
+
+## index.html 파일 만들기
+***
+## html로 작성되 문서입니다! 라고 알려주는 태그
     <!DOCTYPE html>
     <html lang="ko"> 
   
@@ -34,7 +35,7 @@
     </html>
 -> "ko" 는 한글로 되어 있다고 알려줌!  
 
-### 화면에 직접 드러나지 않지만 문서를 설명해주는 태그
+## 화면에 직접 드러나지 않지만 문서를 설명해주는 태그
     <head>
       <meta charset="utf-8">  
       <title> html이 뭘까?</title> 
@@ -46,19 +47,19 @@
 
 ![18](https://user-images.githubusercontent.com/37537330/53730102-468d1100-3eba-11e9-885e-911a6fdf06fd.png)  
 
-### 화면에 직접적으로 등장하는 태그
+## 화면에 직접적으로 등장하는 태그
     <body>
     이게 보일까요?!
     </body>
 -> a, img, h1, li 등등 여러가지 태그들이 있습니다.  
 -> html은 정형화된 문법으로 반복적으로 사용되기 때문에 태그들을 익혀두면 사용하기 쉽습니다.  
 
-### 기본 틀을 만들어주는 단축키
+## 기본 틀을 만들어주는 단축키
     !+tab
 -> 기본적인 틀을 만들어주는 단축키  
 ***
-### 이 body 태그 안 부분을 여러 태그들로 한 번 꾸며볼까요?
-### h1 태그 - 중요 제목을 나타내는 태그
+## 이 body 태그 안 부분을 여러 태그들로 한 번 꾸며볼까요?
+## h1 태그 - 중요 제목을 나타내는 태그
     <h1> 안녕하세요 </h1>
     <h2> 멋쟁이 사자가 되고 싶어요! </h2>
     <p> 저는 한국외국어대학교 바이오메디컬공학부 이슬입니다.
@@ -68,7 +69,7 @@
 -> 일반 단락을 나타내는 태그는 <p> 태그입니다.  
 -> <br> 은 단락 바꿈을 해주는 태그입니다.  
   
-### form 태그 - 입력값을 받아들이는 태그
+## form 태그 - 입력값을 받아들이는 태그
     <form action ="전송받을 대상"> 
         아이디 : <input type="text" name="id">
         비밀번호 : <input type="password" name="pw">
@@ -77,11 +78,11 @@
 -> 사용자들로부터 입력받은 태그들을 전송받을 대상에게 action으로 전송합니다.  
 ![20](https://user-images.githubusercontent.com/37537330/53731086-0a0ee480-3ebd-11e9-93b1-73cd63117ba3.png)
 
-### img 태그 - 이미지를 첨부하는 태그
-  <img src=".jpg" width=100>
+## img 태그 - 이미지를 첨부하는 태그
+    <img src=".jpg" width=100>
 -> 이미지를 첨부하는 태그로 높이나 너비를 조절할 수 있습니다.
 
-### ol 태그 - 순서가 있는 리스트를 만들어주는 태그
+## ol 태그 - 순서가 있는 리스트를 만들어주는 태그
     <ol>
       <li>1학년</li>
       <li>2학년</li>
@@ -92,7 +93,7 @@
 -> li 태그 : 리스트 항목들을 적어줍니다.  
 -> 단축키 : ol>li*개수 + tab  
 
-### ul 태그 - 순서가 없는 리스트를 만들어주는 태그
+## ul 태그 - 순서가 없는 리스트를 만들어주는 태그
     <ul>
       <li>여름 계절학기</li>
       <li>겨울 계절학기</li>
@@ -101,22 +102,22 @@
 -> li 태그 : 리스트 항목들을 적어줍니다.  
 -> 단축키 : ul>li*개수 + tab  
 
-### a 태그 - 링크를 걸어주는 태그
+## a 태그 - 링크를 걸어주는 태그
     <a href="1.html">1학년</a>
 -> 링크를 걸어주는 태그입니다.  
   
   
 
-## css
+# css
 ***
 ![17](https://user-images.githubusercontent.com/37537330/53728501-3f640400-3eb6-11e9-80d6-5bf5f304dcb1.png)
 
-### css inline style sheet
+## css inline style sheet
     <h2 style = "color:blue">멋쟁이 사자가 되고 싶어요! </h2>
 -> 직접 html 태그의 style 속성에 CSS 코드를 넣어 적용시키는 방법입니다.  
 처음 적용시킬 때는 편하지만, 후에 복잡한 프로젝트를 할 때 꾸미는 데에 한계가 있으며 재사용이 불가능합니다.
 
-### css internal style sheet
+## css internal style sheet
     <style>
       h1 {
         color: red;
@@ -126,7 +127,7 @@
 <style>과 </style> 안에 CSS 코드를 넣습니다.  보통 head 태그 안에 넣으나 어디에 넣어도 잘 적용이 됩니다.  
 하지만, 서로 다른 html 문서에 적용할 수 없다는 단점이 있습니다.
 
-### css linking style sheet
+## css linking style sheet
     p {
     color: yellow;
     }
